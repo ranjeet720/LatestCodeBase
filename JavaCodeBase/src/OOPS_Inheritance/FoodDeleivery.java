@@ -9,14 +9,14 @@ public class FoodDeleivery {
 
 		FoodDeleivery food = new FoodDeleivery();
 
-		food.login("ranjeet", "ranjeet@123");
-		food.login(7324532, 9181);
-		food.login(98767, "test@gmail.com");
-		food.login("ranjeet", "ranjeet@test", 3321);
-		food.restaurant();
+		//food.login("ranjeet", "ranjeet@123");
+		//food.login(7324532, 9181);
+		//food.login(98767, "test@gmail.com");
+		//food.login("ranjeet", "ranjeet@test", 3321);
+		//food.restaurant();
 		food.search("Maharaja", "Chicken");
-		food.menu("ManaliHote", "Chicken", 50);
-		food.place("Maharja", "Chicken Pasta", 90, 2);
+		//food.menu("ManaliHote", "Chicken", 50);
+		//food.place("Maharja", "Chicken Pasta", 90, 2);
 
 	}
 
@@ -90,11 +90,15 @@ public class FoodDeleivery {
 		name.add("MalaiMushroom");
 		name.add("PannerTikka");
 		name.add("ShahiPaneer");
+		
+		for(int i =0;i<=name.size();i++) {
+			System.out.println(name.get(i));
+		}
 
-		System.out.println("Hotel Name Is" + " " + name.get(0) + " " + "With Speciallity Of " + " " + name.get(4));
-		System.out.println("Hotel Name Is" + " " + name.get(1) + " " + "With Speciallity Of " + " " + name.get(5));
-		System.out.println("Hotel Name Is" + " " + name.get(2) + " " + "With Speciallity Of " + " " + name.get(6));
-		System.out.println("Hotel Name Is" + " " + name.get(3) + " " + "With Speciallity Of " + " " + name.get(7));
+//		System.out.println("Hotel Name Is" + " " + name.get(0) + " " + "With Speciallity Of " + " " + name.get(4));
+//		System.out.println("Hotel Name Is" + " " + name.get(1) + " " + "With Speciallity Of " + " " + name.get(5));
+//		System.out.println("Hotel Name Is" + " " + name.get(2) + " " + "With Speciallity Of " + " " + name.get(6));
+//		System.out.println("Hotel Name Is" + " " + name.get(3) + " " + "With Speciallity Of " + " " + name.get(7));
 
 		return "Malai Kofta Maharaja Hotel";
 
