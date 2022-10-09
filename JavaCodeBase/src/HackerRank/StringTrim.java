@@ -10,7 +10,7 @@ public class StringTrim {
 	        Scanner scan = new Scanner(System.in);
 	       
 	       
-	        int i = scan.nextInt();
+	          int i = scan.nextInt();
 	         double d = scan.nextDouble();
 	         scan.nextLine();
 	         String s = scan.nextLine();
